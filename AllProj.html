@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>projects</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+      <link href="/css/aos.css" rel="stylesheet">
+      <link href="/css/bootstrap.min.css" rel="stylesheet">
+      <link href="/css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="profile-page sidebar-collapse">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+               <div class="container">
+                  <div class="navbar-translate">
+                     <a class="navbar-brand" href="#" rel="tooltip" id="visitorCount"></a>
+                     <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span>
+                     </button>
+                  </div>
+                  <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                     <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="/index.html">Home</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div class="section" id="portfolio">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 ml-auto mr-auto">
+                  <div class="h4 text-center mb-4 title">ALL MY PROJECTS</div>
+                  <div class="nav-align-center">
+                     <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="sortingDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sort by Language
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="sortingDropdown">
+                           <a class="dropdown-item" href="#" onclick="filterProjects('all')">All Languages</a>
+                           <a class="dropdown-item" href="#" onclick="filterProjects('javascript')">JavaScript</a>
+                           <a class="dropdown-item" href="#" onclick="filterProjects('cplus')">C++</a>
+                           <a class="dropdown-item" href="#" onclick="filterProjects('python')">Python</a>
+                           <a class="dropdown-item" href="#" onclick="filterProjects('java')">Java</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-content gallery mt-5">
+               <div class="tab-pane active" id="web-development">
+                  <div class="ml-auto mr-auto">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="cplus">
+                              <a href="/project1.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/snakef.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Snake Game</div>
+                                       <p>Front-End/Back-End Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="java">
+                              <a href="/project2.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/car.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Car Dealership</div>
+                                       <p>Front-End/Back-End Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="/game1.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/snk1.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Snake Game</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="python">
+                              <a href="/project3.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/car.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Car Dealership</div>
+                                       <p>Front-End/Back-End Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="java">
+                              <a href="/project4.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/sh.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Checkers game</div>
+                                       <p>Front-End/Back-End Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="game2.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/memor.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Memory Game</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="/project5.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/carr.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Car Dealership</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                              <a href="/project6.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/li5.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Light Gray Web Templa</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="/game3.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/sh.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Checkers Game</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="/project7.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/ca1.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Repair of Сars</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                           <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-language="javascript">
+                              <a href="/project8.html">
+                                 <figure class="cc-effect">
+                                    <img src="images/main.webp" alt="Image"/>
+                                    <figcaption>
+                                       <div class="h4">Resume</div>
+                                       <p>Web Development</p>
+                                    </figcaption>
+                                 </figure>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <footer class="footer">
+         <div class="h4 title text-center">Vladislav Kan</div>
+      </footer>
+      <script src="/js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+      <script src="/js/core/popper.min.js?ver=1.1.0"></script>
+      <script src="/js/core/bootstrap.min.js?ver=1.1.0"></script>
+      <script src="/js/now-ui-kit.js?ver=1.1.0"></script>
+      <script src="/js/aos.js?ver=1.1.0"></script>
+      <script src="/js/script.js?ver=1.1.0"></script>
+   </body>
+</html>
